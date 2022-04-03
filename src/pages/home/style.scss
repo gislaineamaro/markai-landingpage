@@ -2,51 +2,7 @@ body {
   .header__gradient {
     width: 100%;
     padding: 20px 0px 40% 0px;
-    background-image: linear-gradient(
-      90deg,
-      #00eeff10 0%,
-      #5773ff18 46.87%,
-      #ff007b0e 100%
-    );
+    background-image: linear-gradient(90deg, #00eeff10 0%, #5773ff18 46.87%, #ff007b0e 100%);
   }
-  .header__callToAction {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5%;
 
-    .header__button{
-      width: 17%;
-    }
-
-    h3{
-      font-size: 40px;
-      font-weight: 400;
-    }
-
-    p {
-      font-size: 16px;
-      text-align: center;
-      width: 42%;
-    }
-
-    h1 {
-      font-size: 70px;
-      text-transform: uppercase;
-      margin: -4% 0px -2%;
-      background: -webkit-linear-gradient(
-        360deg,
-        #00f0ff 0%,
-        #5773ff 46.87%,
-        #ff007a 100%
-      );
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    .header__arrow--down{
-      width: 70px;
-      height: 70px;
-      margin-top: 10px;
-    }
-  }
 }

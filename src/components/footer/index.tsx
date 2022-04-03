@@ -4,6 +4,12 @@ import { BtnCommon } from '../btnCommon'
 
 import './style.scss'
 import arrowIcon from '../../assets/Arrow.svg'
+import radialLogo from '../../assets/MarkaiLogo.svg'
+import iconLinkedin from "../../assets/linkedin.svg"
+import iconFacebook from "../../assets/facebook.svg"
+import iconCb from "../../assets/cb.svg"
+import iconInstagram from "../../assets/instagram.svg"
+import iconTwitter from "../../assets/twitter.svg"
 
 export const Footer = () => {
   return (
@@ -12,7 +18,7 @@ export const Footer = () => {
         <div className="footer__column--one">
           <img
             className="logoEmpresa"
-            src="../../assets/MarkaiLogo.svg"
+            src={radialLogo}
             alt="Logo da Empresa"
           />
           <p className="description">
@@ -24,27 +30,27 @@ export const Footer = () => {
           <div className="social__midia">
             <img
               className="social__midia--icon"
-              src="../../assets/linkedin.svg"
+              src={iconLinkedin}
               alt="Linkedin"
             />
             <img
               className="social__midia--icon"
-              src="../../assets/facebook.svg.svg"
+              src={iconFacebook}
               alt="Facebook"
             />
             <img
               className="social__midia--icon"
-              src="../../assets/cb.svg"
+              src={iconCb}
               alt="Cb"
             />
             <img
               className="social__midia--icon"
-              src="../../assets/instagram.svg"
+              src={iconInstagram}
               alt="Instagram"
             />
             <img
               className="social__midia--icon"
-              src="../../assets/twitter.svg"
+              src={iconTwitter}
               alt="Twitter"
             />
           </div>

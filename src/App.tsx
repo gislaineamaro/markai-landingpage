@@ -1,7 +1,9 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import './global/styles/main.scss';
+
 import { Home } from './pages/home';
+
+import './global/styles/main.scss';
 
 function App() {
   return (

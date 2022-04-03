@@ -1,0 +1,35 @@
+.banner__callToAction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+
+  .banner__button {
+    width: 17%;
+  }
+
+  .banner__text {
+    font-size: 40px;
+    font-weight: 400;
+  }
+
+  .banner__text--description {
+    font-size: 16px;
+    text-align: center;
+    width: 42%;
+  }
+
+  .banner__text--title {
+    font-size: 70px;
+    text-transform: uppercase;
+    margin: -4% 0px -2%;
+    background: -webkit-linear-gradient(360deg, #00f0ff 0%, #5773ff 46.87%, #ff007a 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .redirect__arrow--icon {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+  }
+}
