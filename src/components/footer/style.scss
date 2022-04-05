@@ -1,0 +1,63 @@
+.footer__container {
+  @mixin flexBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  @include flexBox();
+  padding: 4% 5%;
+  background-color: #1B173B;
+
+  .footer__columns{
+    @include flexBox();
+    align-items: center;
+  }
+  .footer__column--two {
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+
+    .links__list {
+      width: 100%;
+      margin-left: 10px;
+      font-weight: 200;
+
+      .links__list--title {
+        font-weight: 500;
+      }
+      .links__list--item {
+        cursor: pointer;
+        margin-bottom: 10px;
+        padding: 0px;
+        &:hover{
+          color: #d9d9d9;
+        }
+      }
+    }
+
+  }
+
+  .footer__column--one {
+    width: 50%;
+    
+    .logoEmpresa {
+      width: 200px;
+      height: auto;
+    }
+    .cta__description{
+      width: 58%;
+      font-size: 14px;
+    }
+    .social__media{
+      width: 35%;
+      @include flexBox();
+      margin-top: 4%;
+      
+      .social__media--icon{
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}

@@ -6,6 +6,9 @@
   margin: 0px 4% 0px 4%;
   padding: 0px 20px;
   font-family: "Poppins", sans-serif;
+  .logo__icon {
+    cursor: pointer;
+  }
   .nav__list {
     display: flex;
     flex-direction: row;
@@ -13,7 +16,7 @@
     align-items: center;
   }
   .nav__item {
-    padding: 0px 25px 0px 0px;
+    margin: 0px 25px 0px 0px;
     list-style: none;
     font-weight: 200;
     cursor: pointer;

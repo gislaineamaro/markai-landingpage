@@ -3,6 +3,8 @@ import { Footer } from '../../components/footer'
 
 import { Header } from '../../components/header'
 import { Banner } from './components/banner'
+import { Benefits } from './components/benefits'
+import { Features  } from './components/features'
 
 import './style.scss'
 
@@ -11,9 +13,11 @@ export const Home = () => {
     <>
       <div className="header__gradient">
         <Header />
-        <Banner />
-        <Footer />
+          <Banner />
       </div>
+          <Features/>
+          <Benefits/>
+      <Footer />
     </>
   )
 }

@@ -1,0 +1,32 @@
+.card__box {
+  width: 250px;
+  height: 190px;
+  padding: 7%;
+  margin: 5px 1.88rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border: solid 2px transparent;
+  border-radius: 20px;
+  background-color: transparent;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0)
+  ),
+  linear-gradient(90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 300px 1px #1F1B42 inset;
+
+  .card__icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: -10px;
+  }
+
+  .card__text--service {
+    width: 80%;
+    font-weight: 600;
+  }
+}

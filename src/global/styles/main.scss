@@ -1,15 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
-body{
+body {
+  @mixin radialEffect {
+    background: -webkit-linear-gradient(360deg, #00f0ff 0%, #5773ff 46.87%, #ff007a 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  @mixin radialEffectButton {
+    border: solid 2px transparent;
+    background-color: transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
+      linear-gradient(90deg, #00f0ff 0%, #5773ff 46.87%, #ff007a 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+  }
+
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 
-  background-color: #0F0B30;
-  font-family: 'Poppins', sans-serif;
-  color: #FFFFFF;
+  background-color: #0f0b30;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
 
   button {
     cursor: pointer;
+  }
+
+  li {
+    list-style: none;
   }
 }
