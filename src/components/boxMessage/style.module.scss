@@ -1,0 +1,34 @@
+.box__content {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  padding: 5% 2%;
+  border-radius: 40px;
+  border: solid 4px transparent;
+  background-color: transparent;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0)
+  ),
+  linear-gradient(90deg, #00eeff53 0%, #5773ff33 46.87%, #ff007b40 100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 300px 1000px #0F0B30 inset;
+
+  .box__title{
+    width: 85%;
+    font-size: 50px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(360deg, #00f0ff 0%, #5773ff 46.87%, #ff007a 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .box__message{
+    width: 60%;
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 2%;
+  }
+}

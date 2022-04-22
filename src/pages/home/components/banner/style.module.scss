@@ -16,13 +16,13 @@
     font-weight: 400;
   }
 
-  .banner__text--description {
+  .banner__text__description {
     font-size: 16px;
     text-align: center;
     width: 42%;
   }
 
-  .banner__text--title {
+  .banner__text__title {
     font-size: 70px;
     text-transform: uppercase;
     margin: -4% 0px -2%;
@@ -30,9 +30,17 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  .redirect__arrow--icon {
+  .redirect__arrow__icon {
     width: 70px;
     height: 70px;
     margin-top: 10px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .banner__callToAction{
+    margin-top: 10%;
+  }
+  .banner__text {
+    margin-bottom: 2.55%;
   }
 }

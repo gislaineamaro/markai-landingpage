@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.scss'
+import headerStyle from './style.module.scss'
 import logo from '../../assets/Markai.svg'
 import { BtnCommon } from '../btnCommon'
 import { useNavigate } from 'react-router-dom'
@@ -10,26 +10,36 @@ export const Header = () => {
     navigate('/home')
   }
   return (
-    <header className="header">
-      <div className="logo">
+    <header className={headerStyle.header}>
+      <div className={headerStyle.logo}>
         <img
-          className="logo__icon"
+          className={headerStyle.logo__icon}
           onClick={handleClick}
           src={logo}
           alt="Logo da empresa"
         />
       </div>
-      <div className="navbar">
-        <ul className="nav__list">
-          <li className="nav__item">Features</li>
-          <li className="nav__item">Products</li>
-          <li className="nav__item">Company</li>
-          <li className="nav__item">Pricing</li>
-          <li className="nav__item">Support</li>
+      <nav className={headerStyle.navbar}>
+        <ul className={headerStyle.nav__list}>
+          <li className={headerStyle.nav__item}>
+            <a>Features</a>
+          </li>
+          <li className={headerStyle.nav__item}>
+            <a>Products</a>
+          </li>
+          <li className={headerStyle.nav__item}>
+            <a>Company</a>
+          </li>
+          <li className={headerStyle.nav__item}>
+            <a>Pricing</a>
+          </li>
+          <li className={headerStyle.nav__item}>
+            <a>Support</a>
+          </li>
         </ul>
-      </div>
-      <div className="user__actions">
-        <a className="user__actions--login" href=".">
+      </nav>
+      <div className={headerStyle.user__actions}>
+        <a className={headerStyle.user__actions__login} href=".">
           Login
         </a>
         <BtnCommon text="Register" isIconHidden={true} />

@@ -13,7 +13,7 @@
     @include flexBox();
     align-items: center;
   }
-  .footer__column--two {
+  .footer__column__two {
     width: 40%;
     display: grid;
     grid-template-columns: repeat(2, 2fr);
@@ -23,10 +23,10 @@
       margin-left: 10px;
       font-weight: 200;
 
-      .links__list--title {
+      .links__list__title {
         font-weight: 500;
       }
-      .links__list--item {
+      .links__list__item {
         cursor: pointer;
         margin-bottom: 10px;
         padding: 0px;
@@ -38,7 +38,7 @@
 
   }
 
-  .footer__column--one {
+  .footer__column__one {
     width: 50%;
     
     .logoEmpresa {
@@ -54,7 +54,7 @@
       @include flexBox();
       margin-top: 4%;
       
-      .social__media--icon{
+      .social__media__icon{
         width: 30px;
         height: 30px;
       }

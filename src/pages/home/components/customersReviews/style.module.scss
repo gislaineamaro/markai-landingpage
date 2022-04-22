@@ -1,0 +1,22 @@
+.section__content{
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .header__section {
+    width: 30%;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    background: -webkit-linear-gradient(360deg, #00f0ff 0%, #5773ff 46.87%, #ff007a 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .cards__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

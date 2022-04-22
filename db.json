@@ -1,0 +1,46 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "image": "https://images.unsplash.com/flagged/photo-1553642618-de0381320ff3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "name": "Saul Ramirez",
+      "job": "CEO, Mirrorly",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque, duis tellus nec aliquam volutpat. Dui dictum tortor dapibus integer convallis ut facilisi leo semper. Tristique nisl risus tristique nunc quis id elit. Suspendisse felis, tellus in sollicitudin."
+    },
+    {
+      "id": 2,
+      "image": "https://images.unsplash.com/photo-1562788869-4ed32648eb72?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80",
+      "name": "Isiah Walls",
+      "job": "Marketing Lead, Zamora",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque, duis tellus nec aliquam volutpat. Dui dictum tortor dapibus integer convallis ut facilisi leo semper. Tristique nisl risus tristique nunc quis id elit. Suspendisse felis, tellus in sollicitudin."
+    },
+    {
+      "id": 3,
+      "image": "",
+      "name": "Forest Barrera",
+      "job": "Managing Director, Teri",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque, duis tellus nec aliquam volutpat. Dui dictum tortor dapibus integer convallis ut facilisi leo semper. Tristique nisl risus tristique nunc quis id elit. Suspendisse felis, tellus in sollicitudin."
+    },
+    {
+      "id": 4,
+      "image": "",
+      "name": "Ruby Schwartz",
+      "job": "Marketing Intern, Thornton",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque, duis tellus nec aliquam volutpat. Dui dictum tortor dapibus integer convallis ut facilisi leo semper. Tristique nisl risus tristique nunc quis id elit. Suspendisse felis, tellus in sollicitudin."
+    },
+    {
+      "id": 4,
+      "image": "",
+      "name": "Isaias Martinez",
+      "job": "Head of Marketing, Moore",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque, duis tellus nec aliquam volutpat. Dui dictum tortor dapibus integer convallis ut facilisi leo semper. Tristique nisl risus tristique nunc quis id elit. Suspendisse felis, tellus in sollicitudin."
+    },
+    {
+      "id": 5,
+      "image": "",
+      "name": "Deidre Braun",
+      "job": "CEO, Wilbert",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque, duis tellus nec aliquam volutpat. Dui dictum tortor dapibus integer convallis ut facilisi leo semper. Tristique nisl risus tristique nunc quis id elit. Suspendisse felis, tellus in sollicitudin."
+    }
+  ]
+}

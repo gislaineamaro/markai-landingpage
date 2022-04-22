@@ -1,0 +1,22 @@
+.contact__section {
+  @mixin flexColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  margin: 10% 0%;
+  @include flexColumn();
+
+  .header__title {
+    @include flexColumn();
+    font-size: 60px;
+    margin-bottom: -4%;
+    background: -webkit-linear-gradient(360deg, #00f0ff 25%, #5773ff 47.87%, #ff007a 80%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .header__description{
+    padding: 0% 15%;
+    text-align: center;
+  }
+}

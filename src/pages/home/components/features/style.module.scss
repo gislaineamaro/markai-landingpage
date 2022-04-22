@@ -20,16 +20,21 @@
   }
 }
 .section__features {
-  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-  .section__feature--title {
+  .section__feature__header {
+    width: 100%;
+  }
+  .section__feature__title {
     font-size: 40px;
     font-weight: bold;
     background: -webkit-linear-gradient(360deg, #00f0ff 0%, #5773ff 46.87%, #ff007a 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  .section__feature--description {
+  .section__feature__description {
     width: 50%;
     font-weight: 200;
   }
@@ -44,3 +49,16 @@
   }
 }
 
+@media only screen and (min-width: 900px) {
+  .section__features {
+    .section__feature__header {
+      width: 90%;
+    }
+    .section__feature__description {
+      margin-top: -2%;
+    }
+    .cards__list {
+      width: 70%;
+    }
+  }
+}

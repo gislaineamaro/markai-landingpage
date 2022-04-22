@@ -14,9 +14,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    gap: 25px;
+    padding: 0;
   }
   .nav__item {
-    margin: 0px 25px 0px 0px;
     list-style: none;
     font-weight: 200;
     cursor: pointer;
@@ -28,7 +29,7 @@
     display: flex;
     align-items: center;
   }
-  .user__actions--login {
+  .user__actions__login {
     width: auto;
     color: #ffffff;
     text-decoration: none;

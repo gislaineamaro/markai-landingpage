@@ -1,0 +1,46 @@
+.form {
+  @mixin radialEffect {
+    border: solid 2px transparent;
+    background-color: transparent;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 300px 1px #0F0B30 inset;
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .input__group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .input__name,
+  .input__email {
+    color: #FFFFFF;
+    width: 20rem;
+    padding: 2.40%;
+    margin: 4% 5%;
+    border-radius: 20px;
+    @include radialEffect();
+  }
+  input::placeholder,
+  textarea::placeholder {
+    color: #FFFFFF
+  }
+  .input__message {
+    color: #FFFFFF;
+    width: 600px;
+    height: 120px;
+    resize: none;
+    padding: 2.50%;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    @include radialEffect();
+  }
+}

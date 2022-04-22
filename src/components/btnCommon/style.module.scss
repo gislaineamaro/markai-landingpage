@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 20px;
   border-radius: 50px;
   border: solid 2px transparent;
   background-color: transparent;
@@ -18,7 +18,7 @@
 
   .btn__text {
     font-size: 16px;
-    padding: 0px 5px 0px 5px;
+    padding: 0px 5px;
     color: #ffffff;
     font-weight: bolder;
   }
@@ -26,5 +26,9 @@
   .btn__icon {
     width: 40px;
     height: 40px;
+  }
+
+  &__primary {
+    @extend .btn__common;
   }
 }
